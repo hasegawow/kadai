@@ -1,0 +1,221 @@
+body {
+    background: #f8d2d0;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+}
+
+.pic {
+    background-image: url(img/Guchip.png);
+    background-size: 180px;
+    height: 180px;
+    width: 180px;
+    background-repeat: no-repeat;
+    margin-bottom: -60px;
+    margin-top: 10px;
+}
+
+.side-menu-maru {
+    float: left;
+    height: 90px;
+    width: 120px;
+}
+
+.guchi {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 300px;
+    position: absolute;
+    z-index: 3;
+}
+
+.guchi:hover {
+    color: black;
+    }
+
+.update_head1-1 {
+    background-color: hsl(0, 100%, 58%);
+    height: 80px;
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 100px;
+    opacity: 0.3;
+    z-index: 1;
+}
+
+.update_head1-2 {
+    background-color: #ff0000;
+    height: 80px;
+    width: 250px;
+    margin-top: 60px;
+    margin-left: -100px;
+    opacity: 0.5;
+    z-index: 2;
+}
+
+.side_menu-maru1 {
+    background-color: #5408FF;
+    opacity: 0.5;
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.side_menu-maru1_2 {
+    background-color: #B100FF;
+    opacity: 0.5;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin-top: -90px;
+    margin-left: 50px;
+}
+
+.home {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 40px;
+    z-index: 3;
+}
+
+.side_menu-maru2 {
+    background-color: #00E348;
+    opacity: 0.5;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.side_menu-maru2_2 {
+    background-color: #6FFF75;
+    opacity: 0.5;
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    margin-top: -90px;
+    margin-left: 80px;
+}
+
+.side_menu-maru3 {
+    background-color: #FE4ACB;
+    opacity: 0.5;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.side_menu-maru3_2 {
+    background-color: #FF3697;
+    opacity: 0.5;
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    margin-top: -80px;
+    margin-left: 20px;
+}
+
+.option {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 40px;
+    z-index: 3;
+}
+
+.side_menu-maru4 {
+    background-color: #79A8A9;
+    opacity: 0.5;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.side_menu-maru4_2 {
+    background-color: #709495;
+    opacity: 0.5;
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    margin-top: -80px;
+    margin-left: 20px;
+}
+
+/* --------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------- */
+
+.update {
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.update_guchi {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    color: white;
+    margin-top: 40px;
+    margin-left: 290px;
+    position: absolute;
+    z-index: 3;
+}
+
+.update_guchi:hover {
+    color: black;
+    }
+
+.update_title {
+    display: block;
+    margin-top: 30px;
+    margin-left: -70px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.update_title2 {
+    height: 50px;
+    width: 440px;
+}
+
+.update_body {
+    display: block;
+    margin-top: 30px;
+    margin-left: -70px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.update_hozon {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    border-radius: 0;
+    background: #ffb5b5;
+    margin-top: 30px;
+    font-weight: 600;
+    margin-left: -70px;
+    height: 50px;
+    width: 80px;
+    font-size: 30px;
+}
+
+.update_hozon:hover {
+    color: white
+}

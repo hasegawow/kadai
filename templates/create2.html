@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block body %}
+
+<div class="header">
+    <div class="pic"></div>
+        <a class="guchi" href="/" style="text-decoration:none;">愚痴るのをやめる</a>
+        <div class="create_head1-1"></div>
+        <div class="create_head1-2"></div>
+</div>
+
+<div class="side-menu-maru">
+    <h1 class="home">HOME</h1>
+    <div class="side_menu-maru1"></div>
+    <div class="side_menu-maru1_2"></div>
+
+    <h1 class=""></h1>
+    <div class="side_menu-maru2"></div>
+    <div class="side_menu-maru2_2"></div>
+
+    <div class="side_menu-maru3"></div>
+    <div class="side_menu-maru3_2"></div>
+
+    <h1 class="option">option</h1>
+    <div class="side_menu-maru4"></div>
+    <div class="side_menu-maru4_2"></div>
+</div>
+
+    <div class="create_form">
+        <form method="POST">
+            <label class="create_title" for="title">< どんなことがあったの？</label>
+            <input class="create_title2" type="text" size="30" placeholder="タイトルをご記入ください" name="title">
+            <br>
+            <label class="create_body" for="body">< なにがあった？</label>
+            <textarea class="crete_body2" name="body" cols="50" rows="10" placeholder="内容を記入"></textarea>
+            <br>
+            <input class="create_touroku" type="submit" value="話題の追加">
+        </form>
+    </div>
+
+{% endblock %}

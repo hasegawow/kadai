@@ -1,0 +1,212 @@
+body {
+    background: #f8d2d0;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+}
+
+.pic {
+    background-image: url(img/Guchip.png);
+    background-size: 180px;
+    height: 180px;
+    width: 180px;
+    background-repeat: no-repeat;
+    margin-bottom: -60px;
+    margin-top: 10px;
+}
+
+.side-menu-maru {
+    float: left;
+    width: 120px;
+    height: 1000px;
+}
+
+.guchi {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 300px;
+    position: absolute;
+    z-index: 3;
+}
+
+.guchi:hover {
+    color: black;
+    }
+
+.head1-1 {
+    background-color: hsl(0, 100%, 58%);
+    height: 80px;
+    width: 110px;
+    margin-top: 30px;
+    margin-left: 100px;
+    opacity: 0.3;
+    z-index: 1;
+}
+
+.head1-2 {
+    background-color: #ff0000;
+    height: 80px;
+    width: 110px;
+    margin-top: 60px;
+    margin-left: -70px;
+    opacity: 0.5;
+    z-index: 2;
+}
+
+.side_menu-maru1 {
+    background-color: #5408FF;
+    opacity: 0.5;
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.side_menu-maru1_2 {
+    background-color: #B100FF;
+    opacity: 0.5;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin-top: -90px;
+    margin-left: 50px;
+}
+
+.home {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 40px;
+    z-index: 3;
+}
+
+.menu {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 40px;
+    z-index: 3;
+}
+
+.side_menu-maru2 {
+    background-color: #00E348;
+    opacity: 0.5;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.side_menu-maru2_2 {
+    background-color: #6FFF75;
+    opacity: 0.5;
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    margin-top: -90px;
+    margin-left: 80px;
+}
+
+.inquiry {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 35px;
+    z-index: 3;
+}
+
+.side_menu-maru3 {
+    background-color: #FE4ACB;
+    opacity: 0.5;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.side_menu-maru3_2 {
+    background-color: #FF3697;
+    opacity: 0.5;
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    margin-top: -80px;
+    margin-left: 20px;
+}
+
+.option {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 40px;
+    z-index: 3;
+}
+
+.side_menu-maru4 {
+    background-color: #79A8A9;
+    opacity: 0.5;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.side_menu-maru4_2 {
+    background-color: #709495;
+    opacity: 0.5;
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    margin-top: -80px;
+    margin-left: 20px;
+}
+
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ここからは投稿関連です＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+
+.toukou {
+    float: left;
+    margin-left: 100px;
+    margin-top: 40px;
+    background-color: #ffb3b3;
+    border-radius: 30px;
+}
+
+.body {
+    margin-left: 20px;
+    height: 400px;
+    width: 500px;
+}
+
+.toukou_title {
+    padding-top: 10px;
+    font-size: 40px;
+    font-weight: 800;
+    /* color: white; */
+}
+
+.toukou_body {
+    margin-top: 10px;
+    /* color: white; */
+}
+
+.datetime {
+    float: right;
+    margin-right: 20px;
+    color: rgb(139, 139, 139);
+}

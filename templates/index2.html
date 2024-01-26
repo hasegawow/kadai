@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block body %}
+
+<div class="header">
+    <div class="pic"></div>
+        <a class="guchi" href="/create2" style="text-decoration:none;">愚痴る</a>
+        <div class="head1-1"></div>
+        <div class="head1-2"></div>
+</div>
+
+<div class="side-menu-maru">
+    <h1 class="home">HOME</h1>
+    <div class="side_menu-maru1"></div>
+    <div class="side_menu-maru1_2"></div>
+
+    <h1 class="menu">MENU</h1>
+    <div class="side_menu-maru2"></div>
+    <div class="side_menu-maru2_2"></div>
+
+    <h1 class="inquiry">INQUIRY</h1>
+    <div class="side_menu-maru3"></div>
+    <div class="side_menu-maru3_2"></div>
+
+    <h1 class="option">OPTION</h1>
+    <div class="side_menu-maru4"></div>
+    <div class="side_menu-maru4_2"></div>
+</div>
+
+{% for post in posts %}
+        <div class="toukou">
+            <div class="body">
+                <h2 class="toukou_title">{{ post.title }}</h2>
+                <button id="update" onclick="location.href='/{{post.id}}/update2'" role="button">編集</button>
+                <button id="delate" onclick="location.href='/{{post.id}}/delete'" role="button">削除</button>
+                <p class="datetime">{{ post.creates_at.strftime('%Y年%m月%d日 %H時%M分') }}</p>
+                <p class="toukou_body">{{ post.body }}</p>
+            </div>
+        </div>
+    {% endfor %}
+
+{% endblock %}

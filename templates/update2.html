@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block body %}
+
+<div class="header">
+    <div class="pic"></div>
+        <a class="update_guchi" href="/" style="text-decoration:none;">愚痴を書き<br>　　　　直すのをやめる</a>
+        <div class="update_head1-1"></div>
+        <div class="update_head1-2"></div>
+</div>
+
+<div class="side-menu-maru">
+    <h1 class="home">HOME</h1>
+    <div class="side_menu-maru1"></div>
+    <div class="side_menu-maru1_2"></div>
+
+    <h1 class=""></h1>
+    <div class="side_menu-maru2"></div>
+    <div class="side_menu-maru2_2"></div>
+
+    <div class="side_menu-maru3"></div>
+    <div class="side_menu-maru3_2"></div>
+
+    <h1 class="option">option</h1>
+    <div class="side_menu-maru4"></div>
+    <div class="side_menu-maru4_2"></div>
+</div>
+
+<div class="update">
+    <form method="POST">
+        <label class="update_title" for="title">< 本当はどんなことあったの？</label>
+        <input class="update_title2" type="text" name="title" value={{ post.title }}>
+        <br>
+        <label class="update_body" for="body">< 本当は何があったの？</label>
+        <textarea class="update_body2" type="text" cols="50" rows="10" name="body">{{ post.body }}</textarea>
+        <br>
+        <input class="update_hozon" type="submit" value="保存">
+    </form>
+</div>
+{% endblock %}
